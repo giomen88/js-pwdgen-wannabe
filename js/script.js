@@ -6,4 +6,4 @@ const lastName = prompt('Qual è il tuo cognome?');
 
 const favColor = prompt('Qual è il tuo colore preferito?');
 
-password.innerText = `La tua password è: ${firstName}${lastName}${favColor}88`;
+password.innerHTML = `La tua password è: <strong>${firstName}${lastName}${favColor}88</strong>`;
